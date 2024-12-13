@@ -1,0 +1,534 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #ffffff, #d4e8f2); /* Gradient for the body */
+}
+
+/* Full Background Sections */
+#sdg6 {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #bef1f1, #9bcdff); /* Gradient for SDG 6 section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#sdg6:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+#problem {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #513280, #020748); /* Gradient for Problem section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#problem:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+#toilets {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #7bf0c3, #84bffe); /* Gradient for Toilets section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#toilets:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+#agriculture {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #3f2a80, #0e7185); /* Gradient for Agriculture section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#agriculture:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+#solutions {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #9ee9d2, #23d0ef); /* Gradient for Solutions section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#solutions:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+#ripple {
+    height: 60vh; /* Adjusted height for a narrower section */
+    background: linear-gradient(135deg, #41326c, #040c68); /* Gradient for Ripple section */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #003366; /* Text color */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#ripple:hover {
+    transform: scale(1.07); /* Slightly scale up on hover */
+}
+
+
+.H1 {
+    font-size: 3rem;
+}
+
+h2 {
+  color: #333;
+}
+
+h1,
+ul {
+  border: #007bff;
+  box-sizing: 20rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px;
+  margin-right: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Logo */
+.logo {
+font-family: "Righteous", sans-serif;
+font-weight: 900;
+font-style: normal;
+  font-size: 4rem;
+  color: #000000;
+  padding: 8px;
+  margin: 0;
+  text-align: left;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378); /* Add shadow to logo */
+}
+
+
+/* Logo Container */
+.logo {
+    font-family: "Righteous", sans-serif; /* Change to Righteous font */
+    font-weight: 900;
+    font-size: 4rem;
+    color: #000000;
+    padding: 8px;
+    margin: 0;
+    text-align: left;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378);
+    display: flex; /* Aligns items in a row */
+    align-items: center; /* Vertically centers the items */
+    gap: 10px; /* Adds space between the image and text */
+}
+
+/* Logo Image */
+.logo-img {
+    height: 4rem; /* Adjust the size of the image */
+    display: block; /* Ensures proper alignment */
+    margin: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Adds a shadow to the logo */
+    border-radius: 8px; /* Optional: gives rounded corners to your logo */
+}
+
+/* Logo Text */
+.logo-text {
+    font-family: "Righteous", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem; /* Matches the desired text size */
+    color: #000000;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378); /* Keeps the shadow */
+    line-height: 1; /* Ensures no extra vertical spacing */
+}
+
+
+
+/* Header Box */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.393);
+  padding: 10px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  margin-right: auto;
+}
+
+
+.long-image {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    margin-top: 20px; /* Adds some space above the image */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.714); /* Optional: adds a shadow effect */
+}
+
+
+/* Navbar (Sections) */
+.navbar {
+    font-family: "Lexend", sans-serif;
+  display: flex;
+  gap: 20px;
+  margin-right: 70px; /* Adjusted to bring the navbar closer to the center */
+}
+
+.navbar a {
+  font-size: 1rem;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.navbar a:hover {
+  background-color: #4082b8;
+  color: white;
+}
+
+/* Rectangle Buttons */
+.rectangle-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 0; /* Adjusted to place the buttons right next to the scrollbar */
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Consistent gap between buttons */
+  z-index: 100;
+  
+}
+
+.rectangle-btn {
+  width: 10px;
+  height: 35px;
+  background-color: #6fc6e9;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.658);
+}
+
+.rectangle-btn:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+/* Welcome Section */
+.welcome-section {
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+    padding: 150px 20px;
+    padding-top: 16rem;
+    background: linear-gradient(135deg, #0cdfc3, #024b99);
+    color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-page .logo-text {
+    font-family: "Righteous", sans-serif;
+}
+
+
+.profile-page .welcome-section {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding: 150px 20px; /* Adjust padding as needed */
+    color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #276397, #0b765a); /* New color for Projects page */
+}    
+
+
+.projects-page .welcome-section {
+    background: linear-gradient(135deg, #097270, #043a80); /* New color for Projects page */
+}
+
+.about-page .welcome-section {
+    background: linear-gradient(135deg, #054544, #0852ab); /* New color for Projects page */
+}
+
+.contact-page .welcome-section {
+    background: linear-gradient(135deg, #209593, #011a3a); /* New color for Projects page */
+}
+
+.glass {
+    font-family: "Righteous", sans-serif;
+    color: #5ce1ff;
+    text-shadow: 1px 1px 2px rgb(4, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-left: 32rem;
+}
+
+
+/* Content Boxes */
+.content-box {
+    font-family: "Lexend", sans-serif; /* Change to Lexend font */
+    font-size: 19px;
+    margin: 50px auto;
+    padding: 50px;
+    background: none;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 90%;
+    color: #003366;
+}
+
+/* Section Styling */
+section {
+    font-family: "Lexend", sans-serif; /* Change to Lexend font */
+    font-size: 17px;
+    text-align: justify;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 90%;
+}
+
+.white {
+   color: rgb(255, 255, 255);
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 768px) {
+    /* Logo */
+    .logo {
+        font-size: 2.5rem; /* Adjusted to maintain proportionality */
+        padding: 8px;
+    }
+
+    /* Navbar */
+    .navbar {
+        position: static;
+        transform: none;
+        width: 100%;
+        margin-right: 0;
+        justify-content: center; /* Center navbar on mobile */
+        gap: 15px;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    /* Rectangle Buttons */
+    .rectangle-buttons {
+        bottom: 15px; /* Slight adjustment for smaller screens */
+        right: 0; /* Keep rectangle buttons next to the scrollbar */
+    }
+
+    .rectangle-btn {
+        width: 10px;
+        height: 20px;
+        font-size: 0.9rem; /* Reduced font size */
+        padding: 10px 0; /* Added padding for better usability */
+    }
+
+    /* Content Boxes */
+    .content-box {
+        width: 90%; /* Adjust content box width for mobile */
+        padding: 20px; /* Reduced padding to avoid cramped content */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Logo */
+    .logo {
+        font-size: 1.8rem; /* Slightly smaller for very small screens */
+        padding: 5px;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .navbar a {
+        padding: 8px 10px;
+        font-size: 0.9rem; /* Reduced font size */
+    }
+
+    /* Rectangle Buttons */
+    .rectangle-btn {
+        width: 10px;
+        height: 20px;
+        font-size: 0.8rem;
+    }
+
+    /* Content Boxes */
+    .content-box {
+        width: 100%; /* Full width for small screens */
+        padding: 15px; /* Less padding to maintain readability */
+    }
+}
+
+
+.hover-video {
+    display: block; /* Change to block for better alignment */
+    margin: 0 auto;
+    margin-right: 29rem; /* Center the video horizontally */
+    width: 14%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    transform: translateX(-10%); /* Move it slightly to the left */
+}
+
+
+
+.footer {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    position: relative; /* Position relative for proper placement */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space above the footer */
+}
+
+
+
+.horizontal-section {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Distribute space between items */
+    margin: 20px; /* Add some margin around the section */
+}
+
+.section .content-box {
+    flex: 1; /* Allow each box to grow equally */
+    margin: 50px 10px;
+    margin-right: 40px;
+    margin-left: 40px; /* Add some space between the boxes */
+    padding: 20px; /* Add padding inside the boxes */
+    background: #f9f9f9; /* Background color for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.horizontal-section {
+    flex: 1; /* Allow each box to grow equally */
+    margin: 50px 10px;
+    margin-right: 40px;
+    margin-left: 40px; /* Add some space between the boxes */
+    padding: 20px; /* Add padding inside the boxes */
+    background: #f9f9f9; /* Background color for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.hori {
+    flex: 1; /* Allow each box to grow equally */
+    margin: 50px 10px;
+    margin-right: 40px;
+    margin-left: 40px; /* Add some space between the boxes */
+    padding: 20px; /* Add padding inside the boxes */
+    background: #f9f9f9; /* Background color for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.horizontal {
+    flex: 1; /* Allow each box to grow equally */
+    margin: 50px 10px;
+    margin-right: 40px;
+    margin-left: 40px; /* Add some space between the boxes */
+    padding: 20px; /* Add padding inside the boxes */
+    background: #f9f9f9; /* Background color for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+/* Optional: Adjust the width of the boxes */
+.content-box {
+    min-width: 200px; /* Minimum width for each box */
+}
+
+/* Header Box */
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.393);
+    padding: 10px 20px; /* Adjusted padding for smaller screens */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 150px 20px;
+    background: linear-gradient(135deg, #0cdfc3, #024b99);
+    color: white;
+}
+
+/* Horizontal Section */
+.horizontal-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 20px; /* Add some margin around the section */
+}
+
+/* Content Boxes */
+.content-box {
+    flex: 1;
+}
